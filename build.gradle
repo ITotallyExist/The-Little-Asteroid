@@ -87,11 +87,11 @@ publishing {
 	}
 }
 
-sourceSets {
-    main {
-        java {
-            srcDirs = [".gradle/quilt-loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-*"]
-            // Add more source directories if needed
-        }
-    }
-}
+// sourceSets {
+//     main {
+//         java {
+//             srcDirs = [".gradle/quilt-loom-cache/minecraftMaven/net/minecraft/minecraft-merged-project-root/1.20.1-*","./src"]
+//             // Add more source directories if needed
+//         }
+//     }
+// }

@@ -37,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "the_little_asteroid.mixins.json"
 }
