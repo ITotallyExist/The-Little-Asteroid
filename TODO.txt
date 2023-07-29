@@ -1,0 +1,17 @@
+New world type
+
+Neutronium
+
+Gravity centered around center of Asteroid
+
+Place blocks in all directions
+
+air only for a certain distance
+
+air has an oxygen amount that increases or decreases based on plants and fires/torches/etc
+
+passing through gas clouds that collect dust on things
+    regular clouds and irrgegular cloudfs
+
+dyrian traders
+
