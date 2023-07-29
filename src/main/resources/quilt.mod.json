@@ -20,7 +20,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.the_little_asteroid.TheLittleAsteroid"
+			"init": "com.example.the_little_asteroid.Asteroid"
 		},
 		"depends": [
 			{
