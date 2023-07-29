@@ -94,19 +94,20 @@ public class AsteroidChunkGenerator extends ChunkGenerator {
     }
 
     @Override
+    //world height from bottom to top i think?
     public int getGenDepth() {
-      return ((NoiseGeneratorSettings)this.settings.value()).noiseSettings().height();
-   }
+        return ((NoiseGeneratorSettings)this.settings.value()).noiseSettings().height();
+        //return 640; //320 in either direction
+    }
 
     @Override
-    public int getMinY() {
-        //this way you have the same amount of space in either direction (up or down)
-        return -320;
+    public int getMinY() { //maybe find a way to use this to make world go from -320 to +320?
+        return ((NoiseGeneratorSettings)this.settings.value()).noiseSettings().minY();
     }
 
     @Override
     public int getSeaLevel() {
-         return Integer.MIN_VALUE;
+         return 0;
     }
 
     @Override
