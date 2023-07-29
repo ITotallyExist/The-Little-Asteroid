@@ -7,7 +7,7 @@
           "settings": "minecraft:overworld",
           "biome_source": {
             "type": "minecraft:fixed",
-            "biome": "the_little_asteroid:space"
+            "biome": "minecraft:badlands"
           }
         }
       },
@@ -18,7 +18,7 @@
           "settings": "minecraft:nether",
           "biome_source": {
             "type": "minecraft:fixed",
-            "biome": "the_little_asteroid:subspace"
+            "biome": "minecraft:badlands"
           }
         }
       },
