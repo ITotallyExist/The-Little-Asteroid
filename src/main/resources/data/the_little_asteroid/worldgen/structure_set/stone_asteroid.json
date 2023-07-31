@@ -3,7 +3,7 @@
       "type": "minecraft:concentric_rings",
       "count": 1,
       "distance": 0,
-      "preferred_biomes": "#minecraft:stronghold_biased_to",
+      "preferred_biomes": "the_little_asteroid:space",
       "salt": 0,
       "spread": 3
     },
