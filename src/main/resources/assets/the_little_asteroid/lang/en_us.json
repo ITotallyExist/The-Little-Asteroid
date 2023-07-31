@@ -1,3 +1,5 @@
 {
-    "generator.the_little_asteroid.asteroid": "Little Asteroid"
+    "generator.the_little_asteroid.asteroid": "Little Asteroid",
+    "biome.the_little_asteroid.space": "Space",
+    "biome.the_little_asteroid.subspace": "Subspace"
 }

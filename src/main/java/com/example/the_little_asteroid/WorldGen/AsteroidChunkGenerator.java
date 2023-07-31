@@ -56,8 +56,9 @@ public class AsteroidChunkGenerator extends ChunkGenerator {
     }
 
     //spawn the start asteroid
-    public void createAsteroid( StructureManager structureManager, BlockPos pos){
-        level.getStructureManager().get(new ResourceLocation(Asteroid.MOD_ID, "stone_asteroid"));
+    public void createAsteroid(StructureManager structureManager, BlockPos pos){
+        //structureManager.
+        //.get(new ResourceLocation(Asteroid.MOD_ID, "stone_asteroid"));
     }
 
     @Override //copied from vanilla class NoiseBasedChunkGenerator
