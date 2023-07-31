@@ -9,11 +9,14 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
 import java.util.function.Function;
 
+import com.example.the_little_asteroid.Asteroid;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.WorldGenRegion;
 import net.minecraft.world.level.LevelHeightAccessor;
 import net.minecraft.world.level.NoiseColumn;
@@ -50,6 +53,11 @@ public class AsteroidChunkGenerator extends ChunkGenerator {
         super(biomeSource);
 
         this.settings = holder;
+    }
+
+    //spawn the start asteroid
+    public void createAsteroid( StructureManager structureManager, BlockPos pos){
+        level.getStructureManager().get(new ResourceLocation(Asteroid.MOD_ID, "stone_asteroid"));
     }
 
     @Override //copied from vanilla class NoiseBasedChunkGenerator
